@@ -12,6 +12,7 @@ foundationLayout = "1.9.0"
 adsMobileSdk = "0.19.0-beta01"
 foundation = "1.9.0"
 ui = "1.9.0"
+googleGmsServices = "4.4.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -37,4 +38,5 @@ ui = { group = "androidx.compose.ui", name = "ui", version.ref = "ui" }
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+google-gms-services = { id = "com.google.gms.google-services", version.ref = "googleGmsServices" }
 

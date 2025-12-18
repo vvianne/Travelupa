@@ -299,7 +299,8 @@ fun GreetingScreen(
             Spacer(modifier = Modifier.height(16.dp))
             Text(
                 text = "Solusi buat kamu yang lupa kemana-mana",
-                style = MaterialTheme.typography.h6
+                style = MaterialTheme.typography.h6,
+                textAlign = TextAlign.Center
             )
         }
         Button(
